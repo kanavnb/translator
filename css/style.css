@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #444;
+    margin-top: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0px 0px 8px rgba(100, 150, 250, 0.5);
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #aaa;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+button:focus {
+    outline: none;
+}
+
+#translationResult {
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+#favoritesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#favoritesList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#favoritesList li button {
+    background-color: #dc3545;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    border-radius: 3px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#favoritesList li button:hover {
+    background-color: #b21f2d;
+}
